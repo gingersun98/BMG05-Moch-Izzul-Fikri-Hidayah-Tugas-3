@@ -29,7 +29,7 @@
   "maxSpeed": 500.0,
   "recycle": false,
   "recycleTime": 20,
-  "spring": 0,
+  "spring": 1,
   "texture": [
     "@asset/Texture/Block/glass_cyan.png",
     "@asset/Texture/Block/glass_cyan.png",

@@ -1,0 +1,10 @@
+REGION_ENTER {
+	RemoveBuffByFullName(buff = "myplugin/cbd48c71-43b2-4ab5-b8bf-dc64414f49cb", entity = $obj1, toTeam = false)
+	AddEntityBuff(buffTime = 100, cfg = "myplugin/ed7d0fcb-9393-43bb-b4c0-a0d7a3819d82", entity = $obj1)
+	ShowTip(
+		entity = $obj1,
+		keepTime = 100,
+		textKey = Concat(p1 = GetEntityName(entity = $obj1), p2 = "Victory"),
+		tipType = "1"
+	)
+}

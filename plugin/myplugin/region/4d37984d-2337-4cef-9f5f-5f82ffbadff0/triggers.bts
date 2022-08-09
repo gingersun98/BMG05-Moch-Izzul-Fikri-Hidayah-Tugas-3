@@ -1,0 +1,102 @@
+REGION_ENTER {
+	@numb = @numb + 1
+	If (@offer == 0) {
+		@offer = 1
+		StartTimer2(interval = 40, time = 1000, timer = "time") {
+			$numb = Random(max = 2, min = 1)
+						If ($numb == 1) {
+				ReplaceBlockInRegionSingle(
+					destBlock = "myplugin/air_wall",
+					map = GetStaticMap(create = true, name = "map001"),
+					region = {
+						map = "",
+						max = {
+							__OBJ_TYPE = "Vector3i",
+							x = -3,
+							y = 10,
+							z = 5
+						},
+						min = {
+							__OBJ_TYPE = "Vector3i",
+							x = -12,
+							y = 7,
+							z = -6
+						}
+					},
+					sourceBlock = "myplugin/glass_cyan"
+				)
+				StartTimer2(interval = 20, time = 1, timer = "") {
+					ReplaceBlockInRegionSingle(
+						destBlock = "myplugin/glass_cyan",
+						region = {
+							map = "",
+							max = {
+								__OBJ_TYPE = "Vector3i",
+								x = -3,
+								y = 10,
+								z = 5
+							},
+							min = {
+								__OBJ_TYPE = "Vector3i",
+								x = -12,
+								y = 7,
+								z = -6
+							}
+						},
+						sourceBlock = "myplugin/air_wall"
+					)
+				}
+			} ElseIf ($numb == 2) {
+				ReplaceBlockInRegionSingle(
+					destBlock = "myplugin/air_wall",
+					map = GetStaticMap(create = true, name = "map001"),
+					region = {
+						map = "",
+						max = {
+							__OBJ_TYPE = "Vector3i",
+							x = -3,
+							y = 10,
+							z = 5
+						},
+						min = {
+							__OBJ_TYPE = "Vector3i",
+							x = -12,
+							y = 7,
+							z = -6
+						}
+					},
+					sourceBlock = "myplugin/glass_light_blue"
+				)
+				StartTimer2(interval = 20, time = 1, timer = "") {
+					ReplaceBlockInRegionSingle(
+						destBlock = "myplugin/glass_light_blue",
+						region = {
+							map = "",
+							max = {
+								__OBJ_TYPE = "Vector3i",
+								x = -3,
+								y = 10,
+								z = 5
+							},
+							min = {
+								__OBJ_TYPE = "Vector3i",
+								x = -12,
+								y = 7,
+								z = -6
+							}
+						},
+						sourceBlock = "myplugin/air_wall"
+					)
+				}
+			}
+		}
+	}
+}
+
+REGION_LEAVE {
+	@numb = @numb - 1
+	If (@numb == 0) {
+		@offer = 0
+		StopTimer2(timer = "time")
+	}
+}

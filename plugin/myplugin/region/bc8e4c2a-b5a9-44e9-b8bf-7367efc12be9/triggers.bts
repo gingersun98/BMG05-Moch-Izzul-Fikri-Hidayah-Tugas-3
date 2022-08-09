@@ -1,0 +1,7 @@
+REGION_ENTER {
+	AddEntityBuff(cfg = "myplugin/4a93aa07-e8c9-4516-84f2-278f8f1e08d4", entity = $obj1)
+}
+
+REGION_LEAVE {
+	RemoveBuffByFullName(buff = "myplugin/4a93aa07-e8c9-4516-84f2-278f8f1e08d4", entity = $obj1, toTeam = false)
+}

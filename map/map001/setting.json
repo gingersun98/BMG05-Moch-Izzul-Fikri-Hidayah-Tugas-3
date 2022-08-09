@@ -3,6 +3,225 @@
   "canBreak": true,
   "hdr": 0,
   "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/992380e4-8790-43dc-a9db-81d9e34be58c",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751189165915062273",
+        "name": "Terrain",
+        "needSync": "true",
+        "position": "x:-0.23199999332428 y:1.0322018861771 z:-0.60263061523438",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:0.1 y:0.1 z:0.1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/3726af01-19b1-400e-9cd9-335c854f490a",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751191734249046017",
+        "name": "Elevator",
+        "needSync": "true",
+        "position": "x:12.030000686646 y:0 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/03d14794-d271-4403-9e61-526f4e085580",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751197259249352705",
+        "name": "Start",
+        "needSync": "true",
+        "position": "x:12.204390525818 y:5.4566116333008 z:0.27623343467712",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:5 y:5 z:5",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/e67aaab4-9514-4ca5-8170-f86411d5f9d0",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751198499285843969",
+        "name": "Monster",
+        "needSync": "true",
+        "position": "x:0.93799924850464 y:8.9550008773804 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/69f860fa-e207-446d-a985-d0f2d7f0bace",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751199133130244097",
+        "name": "FinishPlatform",
+        "needSync": "true",
+        "position": "x:13.09 y:29.12 z:0",
+        "rotation": "x:0 y:88.999740600586 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/af41be74-9a95-44f3-ab58-a3c513ae9e2e",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751202895669706753",
+        "name": "platform",
+        "needSync": "true",
+        "position": "x:0.92988103628159 y:4.7208137512207 z:-0.72046166658401",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:4 y:3 z:4",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/2fa0f556-fc03-4d3e-8076-857d6384676b",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751212427598462977",
+        "name": "Start",
+        "needSync": "true",
+        "position": "x:-27.001001358032 y:4.8090000152588 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1.6 y:1 z:1.6",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/03e59d82-7712-47c8-a2d5-054658c9cafe",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751345736943828993",
+        "name": "Moving Platform",
+        "needSync": "true",
+        "position": "x:-18.908088684082 y:1.3717889785767 z:-0.089956521987915",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:5.63 y:3 z:6",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Folder",
+      "customProperties": [],
+      "properties": {
+        "id": "8751368967135068161",
+        "isDataSet": "false",
+        "name": "Folder0"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/4d37984d-2337-4cef-9f5f-5f82ffbadff0",
+        "id": "8751398028974440449",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:-12.629001617432 y:8.7762765884399 z:-0.26056110858917",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:19.0996 y:5.3509 z:11.8626",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/178b89d8-0e33-4243-ba64-3c27ddbba052",
+        "id": "8751519848603140097",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:-26.986534118652 y:6.5314993858337 z:-0.053761601448059",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:7.22696 y:3.06299 z:6.57988",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/448e99ab-548d-42a9-bb03-a89a1de621f1",
+        "id": "8751579195446132737",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:-5.527003288269 y:0.4093029499054 z:-1.5262584686279",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:57.4596 y:0.999982 z:23.3616",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/d790fff9-55f5-4d80-b39a-1f1bdece331f",
+        "id": "8751590570170957825",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:12.702526092529 y:31.079500198364 z:0.11894023418427",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:12.0218 y:4.15895 z:14.9708",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/bc8e4c2a-b5a9-44e9-b8bf-7367efc12be9",
+        "id": "8751642567508656129",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:12.148498535156 y:19.782981872559 z:0.20800022780895",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:3.99483 y:19.6027 z:5.13672",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
   "skyBox": [
     {
       "texture": [

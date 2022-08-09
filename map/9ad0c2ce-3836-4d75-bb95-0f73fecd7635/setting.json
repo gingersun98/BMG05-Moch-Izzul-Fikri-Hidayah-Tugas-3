@@ -1,0 +1,80 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/af41be74-9a95-44f3-ab58-a3c513ae9e2e",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751173926290358273",
+        "name": "platform",
+        "needSync": "true",
+        "position": "x:16.864850997925 y:56.57799911499 z:22.401641845703",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:5 y:1 z:5",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/e67aaab4-9514-4ca5-8170-f86411d5f9d0",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751176317309698049",
+        "name": "Monster",
+        "needSync": "true",
+        "position": "x:22.426187515259 y:54.280078887939 z:23.253904342651",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/69f860fa-e207-446d-a985-d0f2d7f0bace",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751181680190210049",
+        "name": "FinishPlatform",
+        "needSync": "true",
+        "position": "x:8.9237804412842 y:58.436714172363 z:21.433284759521",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:3 y:1 z:3",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 720.0
+  }
+}

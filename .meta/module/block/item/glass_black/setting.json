@@ -9,6 +9,9 @@
       "canDropSelf": false
     },
     "isOpaqueFullCube": false,
+    "jumpBuff": [
+      ""
+    ],
     "name": {
       "value": "block_glass_black"
     },
@@ -36,12 +39,104 @@
       "up": {
         "asset": "asset/Texture/Block/glass_black.png"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "180e3a29-7bb0-4fcb-8fb4-623a078e9dfe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/cbd48c71-43b2-4ab5-b8bf-dc64414f49cb"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": false
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "fac75e0d-fb15-4d6f-868f-c764c286b435"
+              },
+              "pos": {
+                "x": 685,
+                "y": 187
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "180e3a29-7bb0-4fcb-8fb4-623a078e9dfe"
+              },
+              "pos": {
+                "x": 1091,
+                "y": 232
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f03b3575-60d1-4281-ba5a-7dcd27687583"
+            },
+            "type": "Trigger_BlockOn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "fac75e0d-fb15-4d6f-868f-c764c286b435"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "800aae68-3a99-4988-a9cc-33b3469fd548"
+            }
+          },
+          "type": "Trigger_BlockOn"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "b44e9991492d120c7eb3da0500cbb1e5",
-      "triggers.bts": ""
+      "triggers.bts": "d04f0370d597d9acf641b9ea90f3032d"
     },
     "VERSION": "0.22"
   }

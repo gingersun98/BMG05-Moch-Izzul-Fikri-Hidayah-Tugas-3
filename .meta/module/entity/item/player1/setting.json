@@ -2,20 +2,23 @@
   "data": {
     "actorModel": {
       "actorName": {
-        "asset": ""
+        "asset": "asset/Actor/Robot Arm Geek/g2047_monster_normal_1102.actor"
       },
       "girlactor": {
-        "asset": ""
-      }
+        "asset": "asset/Actor/Robot Arm Geek/g2047_monster_normal_1102.actor"
+      },
+      "modelType": "Customize"
     },
     "AI_home": {
-      "homeSize": 5.0
+      "homeSize": 5
     },
     "boundingVolume": {
       "height": 1.7,
       "radius": 0.43,
       "type": "Capsule"
     },
+    "canRevive": true,
+    "damage": 20,
     "deadAction": {
       "deathHideTime": {
         "value": 60
@@ -23,14 +26,114 @@
       "playDeadAction": "die_front"
     },
     "isPlayer": true,
+    "jumpHeight": 1,
+    "maxHp": 100,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 60
+    },
+    "skill": [
+      "myplugin/f5fe4a4d-c7ae-42f6-abad-502700f578a7"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "63c01bd6-9125-4f58-b186-6f97fbfd9c88"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/cbd48c71-43b2-4ab5-b8bf-dc64414f49cb"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": false
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1228e445-e5bc-41cd-9e03-df2961f5fa12"
+              },
+              "pos": {
+                "x": 681,
+                "y": 77
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "63c01bd6-9125-4f58-b186-6f97fbfd9c88"
+              },
+              "pos": {
+                "x": 1078,
+                "y": 91
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "2e484815-88d0-47b4-9af3-60edd6eff6a8"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "1228e445-e5bc-41cd-9e03-df2961f5fa12"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "15e3280d-b31b-44c2-bceb-9e7064464ce3"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6a07f8bdd454bf0b4b3f59956a1f3f4d",
-      "triggers.bts": ""
+      "setting.json": "974021b8e2c17c97bf63d9daf0235c84",
+      "triggers.bts": "40c19026d6f6e96074ec9dc2bb34c875"
     },
     "VERSION": "0.22"
   }

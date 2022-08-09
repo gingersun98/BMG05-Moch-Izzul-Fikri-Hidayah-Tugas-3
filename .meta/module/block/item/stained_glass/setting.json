@@ -36,12 +36,38 @@
       "up": {
         "asset": "asset/Texture/Block/glass_new.png"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "77695d02-fceb-4e34-b107-8c28c35a62a3"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "6ab5eb2c-8e39-4872-919c-0e7c16d8bd45"
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "31019c27b9b227fa9b19a51da8d73903",
-      "triggers.bts": ""
+      "triggers.bts": "3874c3b249827e35a229984f8611655f"
     },
     "VERSION": "0.22"
   }

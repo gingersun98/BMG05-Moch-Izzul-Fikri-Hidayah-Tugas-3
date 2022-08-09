@@ -6,23 +6,7 @@
   "candrop": false,
   "canSwim": false,
   "climbSpeed": 0.0,
-  "collisionBoxes": [
-    {
-      "__OBJ_TYPE": "Box",
-      "max": {
-        "__OBJ_TYPE": "Vector3",
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "min": {
-        "__OBJ_TYPE": "Vector3",
-        "x": 0,
-        "y": 0,
-        "z": 0
-      }
-    }
-  ],
+  "collisionBoxes": [],
   "dropCount": 1,
   "dropSelf": false,
   "editBaseFunc": "block_breakTime",

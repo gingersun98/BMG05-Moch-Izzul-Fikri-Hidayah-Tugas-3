@@ -1,0 +1,3 @@
+BLOCK_ON {
+	AddEntityBuff(cfg = "myplugin/cbd48c71-43b2-4ab5-b8bf-dc64414f49cb", entity = $obj1)
+}

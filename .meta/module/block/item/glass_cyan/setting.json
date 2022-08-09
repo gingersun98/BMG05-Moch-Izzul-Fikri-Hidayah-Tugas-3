@@ -17,6 +17,7 @@
         "value": 0
       }
     },
+    "spring": 1,
     "textures": {
       "back": {
         "asset": "asset/Texture/Block/glass_cyan.png"
@@ -40,7 +41,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "66b6bce3832eb595c27619e70960b67b",
+      "setting.json": "90a1889c71cb64a4cd8cce7f8df5687e",
       "triggers.bts": ""
     },
     "VERSION": "0.22"
